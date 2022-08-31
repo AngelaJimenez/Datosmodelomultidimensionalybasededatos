@@ -141,7 +141,8 @@ SELECT COUNT(*) as TotalProductos FROM Movimiento
 WHERE FechaMovimiento >= '2020-12-1 01:15:00'
 AND FechaMovimiento < '2022-12-20 01:15:00'
 AND ID_Cliente = 1
-
+AND ID_Proveedor = 1
+AND ID_TipoTransaccion= 1
 -- Entregable EJECUTAR
 
 
